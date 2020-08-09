@@ -1,7 +1,10 @@
 # DriverTripDemo
 Java code for generating Driver trip report.
 
-The code will process an input file. For this sample demo Input should be placed in C:\ drive wihh Name Input.txt.
+The code will process an input file. For this sample demo Input should be placed in c:/dev/ directory wihh Name Input.txt.
+
+Input File:c:/dev/Input.txt
+Output File:c:/dev/Output.txt
 
 
 Each line in the input file will start with a command. There are two possible commands.
@@ -12,7 +15,7 @@ Trip Dan 07:15 07:45 17.3
 Discard any trips that average a speed of less than 5 mph or greater than 100 mph.
 Generate a report containing each driver with total miles driven and average speed. Sort the output by most miles driven to least. Round miles and miles per hour to the nearest integer.
 
-Code will generate Output.txt file in C drive.
+Code will generate Output.txt file in C:/dev directory..
 
 Example input:
 Driver Dan
